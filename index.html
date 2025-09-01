@@ -25,12 +25,38 @@
       display: block;
     }
     /* Small floating hint and download button */
-
+    .hint {
+      position: fixed;
+      top: 8px;
+      left: 8px;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-family: Tahoma, sans-serif;
+      font-size: 14px;
+      direction: rtl;
+    }
+    .download-btn {
+      position: fixed;
+      top: 8px;
+      right: 8px;
+      background: rgba(255,255,255,0.95);
+      color: #000;
+      padding: 6px 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-family: Tahoma, sans-serif;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
     <img src="222.jpg" alt="منوی رستوران">
   </div>
+
+  <div class="hint">برای مشاهده تمام صفحه، گوشی را بچرخانید یا روی تصویر زوم کنید</div>
+  <a class="download-btn" href="222.jpg" download>دانلود تصویر</a>
 </body>
 </html>
